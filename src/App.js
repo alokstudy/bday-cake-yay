@@ -24,7 +24,7 @@ export default function App() {
   const cake60 = "/assets/60.png";
   const cake40 = "/assets/40.png";
   const cake20 = "/assets/20.png";
-  const birthdayText = "/assets/birthdaytext.png";
+  const birthdayText = "/assets/birthdaytext(1).png";
   const birthdaySong = "/assets/bdayaudo.mp3";
 
   useEffect(() => {
