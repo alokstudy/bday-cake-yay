@@ -3,6 +3,7 @@ import "./App.css";
 import Confetti from "./Confetti";
 import TerminalIntro from "./TerminalIntro";
 import { useEffect, useRef, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const audioRef = useRef(null);
@@ -121,6 +122,7 @@ const birthdaySong = "/assets/bdayaudo.mp3";
 
   return (
     <div className="App">
+      <Analytics />
       <audio ref={audioRef} src={birthdaySong} loop />
 
       {showTerminal ? (
